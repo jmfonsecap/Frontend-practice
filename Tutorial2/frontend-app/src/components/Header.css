@@ -1,0 +1,17 @@
+.header-nav{
+    background-color: darkblue;
+}
+.header-ul{
+    display: flex;
+    justify-content: flex-start;
+}
+.header-ul li{
+    padding: 10px;
+    cursor: pointer;
+    color: white;
+    list-style-type:none;
+}
+.header-ul li:hover{
+    background-color: lightblue;
+    color: darkblue;
+}
