@@ -1,18 +1,25 @@
-Este repositorio es una ejercicio realizado gracias a la pagina Profy.dev. La mayor parte del proyecto sale de este link https://github.com/profydev/prolog-app
-Sin embargo, la modificación al proyecto, como lo indican los ejercicios son realizados en su totalidad por mi. Incluido asi el pedazo de python en donde creo una pequeña api (similar a la del ejercicio propuesto) para asi consumirla.
+# Prolog-App Exercise
 
-Para utilizar este proyecto se realizan los siguietes pasos:
+Este repositorio es un ejercicio basado en el proyecto original de [Profy.dev](https://github.com/profydev/prolog-app). La mayoría del código proviene de ese repositorio, pero se realizaron modificaciones sustanciales como parte de los ejercicios propuestos.
 
-###npm install
-###Crear el .env con el .env.template
+## Pasos para utilizar este proyecto:
 
-Luego se procede a ir a la carpeta de la API en python
+### 1. Instalación de Dependencias
 
-###cd PythonBit
-Y se corre la API
-###python api.py
+```bash
+npm install
+```
+### 2. Creación del archivo de entorno
+Crear un archivo .env en la raíz del proyecto utilizando el formato proporcionado en .env.template.
 
-En ese momento se puede devolver a la carpeta del proyecto, y correrlo, este consumira la API que permitira mostrar partes del proyecto.
-###npm run dev
-
-
+### 3. Iniciar la API en Python
+```bash
+cd PythonBit
+python api.py
+```
+### 4. Iniciar la Aplicación
+Volver a la carpeta principal del proyecto y ejecutar:
+```bash
+npm run dev
+```
+La aplicación consumirá la API recién creada para mostrar diversas partes del proyecto.
